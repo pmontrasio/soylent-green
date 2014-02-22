@@ -171,4 +171,8 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     #users-blocks {
 	margin: 0 24em 0 0;
     }
+    div.commentBody blockquote {
+	border-left: 2px solid #B2B2B2;
+	padding-left: 1em;
+    }
 }
