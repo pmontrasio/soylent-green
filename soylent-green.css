@@ -16,7 +16,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
 
 @-moz-document domain("soylentnews.org") {
     body {
-        background: #fafafa;
+        background: #EAEAEA;
         font: 13px/1.5 Arial,sans-serif;
     }
     #contents {
@@ -44,7 +44,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
         border-radius: 10px;
     }
     #slashboxes {
-        background: #fafafa;
+        background: #EAEAEA;
     }
     #slashboxes h4 {
         font-size: 100%;
@@ -65,10 +65,10 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
         border-radius: 10px;
     }
     #frame {
-       background: #fafafa;
+       background: #EAEAEA;
     }
     #links {
-        background: #fafafa;
+        background: #EAEAEA;
     }
     .generaltitle {
         background: #004422;
@@ -91,6 +91,19 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     }
     .article .details {
         padding: 0.4em 1em 0.4em 1.3em;
+    }
+    div.storylinks {
+	background: #EEEEEE;
+	border: 1px solid #AAAAAA;
+	border-top: 0;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    }
+    div.storylinks div {
+	background:none;
+    }
+    div.storylinks div ul {
+	background:none;
     }
     .intro p {
         font-size: 100%;
