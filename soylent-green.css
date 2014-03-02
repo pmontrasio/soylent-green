@@ -17,7 +17,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
 @-moz-document domain("soylentnews.org") {
     body {
         background: #EAEAEA;
-        font: 13px/1.5 Arial,sans-serif;
+        font: 14px/1.5 Arial,sans-serif;
     }
     #contents {
         margin: 0 0 0 10.6em;
@@ -35,7 +35,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
         border-top-right-radius: 10px;
     }
     #links div.content {
-        font-size: 100%;
+        font-size: 90%;
         background: none;
         border-radius: 10px;
     }
@@ -57,7 +57,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     }
     #slashboxes div.content {
         background: #ffffff;
-        font-size: 100%;
+        font-size: 90%;
         border-radius: 10px;
     }
     #slashboxes div.block {
@@ -85,6 +85,9 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     }
     .article {
         background: none;
+    }
+    .article .body {
+	font-size: 90%;
     }
     .article div.title {
         background:none;
@@ -159,7 +162,7 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
         padding: 0.3em 1em 0.3em 1em
     }
     #commentlisting li.comment {
-        font-size:100%;
+        font-size:90%;
         line-height:26px;
     }
     .commentwrap {
@@ -187,5 +190,11 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     div.commentBody blockquote {
 	border-left: 2px solid #B2B2B2;
 	padding-left: 1em;
+    }
+    #footer .search input {
+	padding:4px;
+    }
+    input {
+	padding: 4px;
     }
 }
