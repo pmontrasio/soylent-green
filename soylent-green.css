@@ -114,6 +114,9 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     a {
         color: #006600;
     }
+    #links a, #links a:visited {
+	color: #006600;
+    }
     a.begin {
         color: #006600 !important;
     }
@@ -161,8 +164,11 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
         line-height:20px;
         padding: 0.3em 1em 0.3em 1em
     }
+    #commentlisting {
+	font-size: 90%;
+    }
     #commentlisting li.comment {
-        font-size:90%;
+        font-size:100%;
         line-height:26px;
     }
     .commentwrap {
