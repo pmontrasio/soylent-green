@@ -203,4 +203,8 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     input {
 	padding: 4px;
     }
+    #usermenu ul.menu li a {
+        background: #004422;
+        color: white;
+    }
 }
