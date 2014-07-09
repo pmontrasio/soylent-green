@@ -205,6 +205,6 @@ Thanks to http://snarfed.org/my_stylish_userstyle_workflow for that
     }
     #usermenu ul.menu li a {
         background: #004422;
-        color: white;
+        color: white !important;
     }
 }
